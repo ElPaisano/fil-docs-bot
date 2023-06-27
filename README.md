@@ -4,7 +4,7 @@
 
 FilDocsBot is a chatbot application that answers users questions about Filecoin using the [official documentation](https://docs.filecoin.io/). 
 The bot uses the [Superpowered AI Python SDK](https://github.com/SuperpoweredAI/superpowered-python-sdk) to provide ChatGPT with a "knowledge base" (the official Filecoin docs),
-so that ChatGPT will not make up wacky answers using unkwown or outdated sources. In other words, Superpowered AI provides guardrails, so that ChatGPT only draws from sources provided and does not hallucinate. 
+so that ChatGPT will not make up wacky answers using unknown or outdated sources. In other words, Superpowered AI provides guardrails, so that ChatGPT only draws from sources provided and does not hallucinate. 
 
 The bot then uses this knowledge to answer questions about Filecoin that the user asks via the command line. The bot also cites the document used to answer the question.
 
